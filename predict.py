@@ -1,7 +1,3 @@
-# Cognifyz Technologies — Machine Learning Internship
-# Task 1: Predict Restaurant Ratings
-
-# 1. Import Libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -17,7 +13,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 
 # 2. Load Dataset
-df = pd.read_csv('restaurant_dataset.csv')
+df = pd.read_csv('/content/restaurant_dataset.csv')
 
 print("First 5 rows:")
 display(df.head())
